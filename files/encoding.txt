@@ -1,0 +1,18 @@
+NIO - Non Blocking IO
+	Introduzido no Java 4 (2002)
+	Lida com buffers e channels e suporta operacoes Assincronas
+	Pode ser mais performatico do que puro IO dependendo da aplicacao e o caso de uso
+	
+	NIO prove:
+		acesso em massa a bytes crus
+		channels bidirecionais (le e escreve com um mesmo canal)
+		buffering off-heap (ou seja, buffer fora da memoria central da JVM)
+		suporte apropriado para os Charsets
+		suporte para operacoes assincronas
+	
+NIO 2
+	trouxe mais funcionalidades para o java IO e NIO
+	acesso nativo aos arquivos do sistema
+	eventos de diretorios para rastrear criacao e delecao de arquivos
+	api de exploracao de diretorio mto poderosa
+	
